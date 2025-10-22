@@ -3,12 +3,17 @@
  */
 
 package com.mycompany.proyectogit;
+import java.util.Scanner;
 
 public class Proyectogit {
 
     public static void main(String[] args) {
-       int a=20, b=25;
-       
+       Scanner ingreso = new Scanner (System.in);
+        int a, b;
+        System.out.println("Ingresa el valor de a");
+        a=ingreso.nextInt();
+        System.out.println("Ingresa el valor de b");
+        b=ingreso.nextInt();
         System.out.println("la suma es: "+(a+b));
     }
 }
